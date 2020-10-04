@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*This is top section*/
+.logo {
+    border-radius: 50%;
+    display: block;
+    margin-left: 140vh;
+    width: 70px;
+    height: 70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+header h1{
+    display: flex;
+    margin-left: 95vh;
+    justify-content: center;
+    color: rgb(91, 151, 241);
+}
+
+
+body {
+    background-image: url('bg.gif');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    height: 100vh;
+    background-color: rgb(72, 99, 99);
+  
+}
+
+.container {
+    max-width: 995px;
+    border-radius: 40px;
+    margin-left: 110vh;
+    height: 60vh;
+    width: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    background-image: url('logo.jpeg');
+    background-position: center;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.message {
+    background-color: rgb(252, 248, 248);
+    width: 35%;
+    padding: 10px;
+    margin: 7px 2px;
+    background-origin: 2px solid rgb(184, 181, 181);
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#messageInp {
+    margin-left: 87vh;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    border-bottom: 2px solid rgba(72, 98, 247, 0.76);
+    height: 34px;
+    width: 55vh;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -ms-border-radius: 40px 40px 40px 40px;
+    -o-border-radius: 40px 40px 40px 40px;
+    background-color: whitesmoke;
+
+}
+
+  
+.btn {
+    cursor: pointer;
+    border: 0px solid black;
+    margin-left: 8px;
+    height: 40px;
+    width: 40px;
+    padding: 13px;
+    padding-left: 24px;
+    background: url('send_icon.png') no-repeat;
+    
+}
+.btn:hover {
+    cursor: pointer;
+    border: 0px solid black;
+    margin-left: 8px;
+    height: 40px;
+    width: 40px;
+    padding: 13px;
+    padding-left: 24px;
+    background: url('send_icon.png') no-repeat;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+  
